@@ -52,8 +52,8 @@
     "upgrade": "npm-check-updates -u && npm install"
   },
   "devDependencies": {
-    "@vscode/vsce": "3.2.2",
-    "npm-check-updates": "17.1.14",
-    "prettier": "3.5.1"
+    "@vscode/vsce": "3.3.2",
+    "npm-check-updates": "17.1.16",
+    "prettier": "3.5.3"
   }
 }
