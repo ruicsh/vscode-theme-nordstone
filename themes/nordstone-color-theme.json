@@ -64,7 +64,7 @@
     "editor.inactiveSelectionBackground": "#44403ccc",
     "editor.inlineValuesBackground": "#57534e",
     "editor.inlineValuesForeground": "#eceff4",
-    "editor.selectionBackground": "#44403ccc",
+    "editor.selectionBackground": "#3b4252",
     "editor.selectionHighlightBackground": "#44403ccc",
     "editor.rangeHighlightBackground": "#44403c52",
     "editor.wordHighlightBackground": "#81a1c166",
@@ -85,7 +85,7 @@
     "editorBracketHighlight.foreground6": "#88c0d0",
     "editorBracketHighlight.unexpectedBracket.foreground": "#bf616a",
     "editorCodeLens.foreground": "#57534e",
-    "editorGroup.border": "#29252401",
+    "editorGroup.border": "#525252",
     "editorGroup.dropBackground": "#29252499",
     "editorGroupHeader.border": "#29252400",
     "editorGroupHeader.noTabsBackground": "#171717",
@@ -203,7 +203,7 @@
     "peekViewResult.fileForeground": "#88c0d0",
     "peekViewResult.lineForeground": "#d8dee966",
     "peekViewResult.matchHighlightBackground": "#88c0d0cc",
-    "peekViewResult.selectionBackground": "#44403c",
+    "peekViewResult.selectionBackground": "#3b4252",
     "peekViewResult.selectionForeground": "#d8dee9",
     "peekViewTitle.background": "#292524",
     "peekViewTitleDescription.foreground": "#d8dee9",
@@ -294,7 +294,7 @@
   "tokenColors": [
     {
       "settings": {
-        "foreground": "#d8dee9ff",
+        "foreground": "#d8dee9ff"
       }
     },
     {
@@ -353,10 +353,7 @@
     },
     {
       "name": "Entity Name Class/Type",
-      "scope": [
-        "entity.name.class",
-        "entity.name.type.class"
-      ],
+      "scope": ["entity.name.class", "entity.name.type.class"],
       "settings": {
         "foreground": "#8FBCBB"
       }
@@ -394,14 +391,14 @@
       "name": "Invalid Deprecated",
       "scope": "invalid.deprecated",
       "settings": {
-        "foreground": "#D8DEE9",
+        "foreground": "#D8DEE9"
       }
     },
     {
       "name": "Invalid Illegal",
       "scope": "invalid.illegal",
       "settings": {
-        "foreground": "#D8DEE9",
+        "foreground": "#D8DEE9"
       }
     },
     {
@@ -987,7 +984,7 @@
         "source.js meta.embedded.line meta.brace.square",
         "source.js meta.embedded.line meta.brace.round",
         /* Required for extension `mgmcdermott.vscode        -language        -babel`. */
-                "source.js string.quoted.template meta.brace.square",
+        "source.js string.quoted.template meta.brace.square",
         "source.js string.quoted.template meta.brace.round"
       ],
       "settings": {
@@ -1201,9 +1198,7 @@
     },
     {
       "name": "[Python] Function Parameter",
-      "scope": [
-        "source.python variable.parameter.function.language"
-      ],
+      "scope": ["source.python variable.parameter.function.language"],
       "settings": {
         "foreground": "#D8DEE9"
       }
@@ -1341,10 +1336,7 @@
     },
     {
       "name": "[TypeScript] Variables",
-      "scope": [
-        "source.ts support.variable",
-        "source.tsx support.variable"
-      ],
+      "scope": ["source.ts support.variable", "source.tsx support.variable"],
       "settings": {
         "foreground": "#D8DEE9"
       }
